@@ -1,0 +1,123 @@
+.font{
+    font-size: large;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px black;
+}
+
+.questions-area-background{
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to left, blue , black);
+}
+
+.logo{
+    width: 20vw;
+    margin:  5vh 7.5vw;
+}
+
+.questions-container{
+    position: absolute;
+    top: 0;
+    border-right: 2px solid whitesmoke;
+    width: 35vw;
+    margin-top: auto;
+    height: 100vh;
+}
+
+.question-look{
+    background-image: linear-gradient(to bottom left,
+     #ee1313 , #ba1313, #ee1313,  #ba1313, #ee1313,  #ba1313);
+}
+
+.question-look:hover{
+    background-image: linear-gradient(to bottom left,
+    #eee , #ba1313, #ee1313,  #ba1313, #ee1313,  #eee);
+    box-shadow: 0 0 1rem white;
+    transition: 100ms;
+}
+
+.question{
+    height: 8vh;
+    width: 32vw;
+    padding: 5vh 2vw;
+    margin: 28vh 0 2vh;
+    border: 1.5px solid white;
+    border-left: none;
+    border-top-right-radius: 0.8rem ;
+    border-bottom-right-radius: 0.8rem;
+    color: white;
+}
+
+.answer{
+    display: flex;
+    align-items: center;
+    margin: 1vh 0.5vw;
+    height: 2vh;
+    padding: 2.5vh 0.5vw;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    color: whitesmoke;
+}
+
+.circle{
+    align-items: center;
+    background: whitesmoke;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 1rem;
+    border-radius: 1.5rem;
+}
+
+.number{
+    position: relative;
+    bottom: 1.1rem;
+    left: 0.8rem;
+    color: blue;
+    text-shadow: none;
+}
+
+.gold-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 3vh 3vw;
+}
+
+.gold{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to top right,
+    white , yellow, white );
+    width: 8vw;
+    height: 5vh;
+    border: 2px solid yellow;
+    border-radius: 2px;
+    text-align: center;
+    color: red;
+    text-shadow: 1px 1px 2px red;
+    transition: 300ms;
+    font-size: 1.2vw;
+}
+
+.gold:hover{
+    background-image: linear-gradient(to top right,
+    white, yellow, white, yellow );
+    box-shadow: 0 0 1rem yellow;
+    text-shadow: 1px 1px 8px red;
+    transition: 300ms;
+}
+
+.gold-text{
+    margin: 0.5rem;
+    text-align: center;
+    color: white;
+    font-size: 1.5vw;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+}
