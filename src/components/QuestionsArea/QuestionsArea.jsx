@@ -12,7 +12,7 @@ function components() {
                 <div className="question-look question">
                     De quem é a famosa frase “Penso, logo existo”?
                 </div>
-                <div className="question-look answer ">
+                <div role="button" onClick={() => console.log('teste')} className="question-look answer ">
                     <div className="circle"><h2 className="number">1</h2></div>
                     Platão
                 </div>
