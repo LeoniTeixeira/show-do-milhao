@@ -32,6 +32,12 @@
      #ee1313 , #ba1313, #ee1313,  #ba1313, #ee1313,  #ba1313);
 }
 
+.select-look{
+    background-image: linear-gradient(to bottom left,
+     #13ee13 , #13ba13, #13ee13,  #13ba13, #13ee13,  #13ba13);
+    transition: 400ms;
+}
+
 .question-look:hover{
     background-image: linear-gradient(to bottom left,
     #eee , #ba1313, #ee1313,  #ba1313, #ee1313,  #eee);
@@ -40,9 +46,10 @@
 }
 
 .question{
-    height: 8vh;
+    display: flex;
+    height: 15vh;
     width: 32vw;
-    padding: 5vh 2vw;
+    padding: 2vh 2vw;
     margin: 28vh 0 2vh;
     border: 1.5px solid white;
     border-left: none;
@@ -83,7 +90,7 @@
 .gold-container{
     display: flex;
     justify-content: space-around;
-    margin: 3vh 3vw;
+    margin: 3vh 3vw; 
 }
 
 .gold{
@@ -100,7 +107,7 @@
     color: red;
     text-shadow: 1px 1px 2px red;
     transition: 300ms;
-    font-size: 1.2vw;
+    font-size: 1vw;
 }
 
 .gold:hover{
@@ -115,7 +122,7 @@
     margin: 0.5rem;
     text-align: center;
     color: white;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
 }
 
 .text-container{

@@ -18,5 +18,4 @@ function StartScreen() {
         </div>
     )
 }
-
 export default StartScreen;

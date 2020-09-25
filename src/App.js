@@ -1,15 +1,13 @@
 import React from 'react';
-import QuestionsArea from './components/QuestionsArea/QuestionsArea'
-import StartScreen from './components/StartScreen/StartScreen'
+import QuestionsScreen from './components/QuestionsScreen/QuestionsScreen'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <StartScreen/>
-
+      <QuestionsScreen/>
     </div>
   );
 }
-
 export default App;
+

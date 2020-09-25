@@ -47,10 +47,10 @@
 .button-start:hover{
     background-image: linear-gradient( to right, black, blue, blue, black);
     box-shadow: 2px 2px 8px black;
-    text-shadow: 2px 2px 4px #666;
+    text-shadow: 2px 2px 3px #666;
 }
 
 .button-start:active{
     margin: 1.1vh auto;
-    box-shadow: 2px 0px 2px black;
+    box-shadow: 2px 0px 6px black;
 }
