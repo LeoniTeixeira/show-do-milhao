@@ -29,11 +29,11 @@ function Score({questionIndex}) {
     return (
         <div className="gold-container">
             <div className="text-container">
-    <div className="gold"><h2>{miss}{questionIndex<2||questionIndex===16?"nada":" mil"}</h2></div>
+            <div className="gold"><h2>{miss}{questionIndex<2||questionIndex===16?"nada":" mil"}</h2></div>
                 <h3 className="gold-text">ERRAR</h3>
             </div>
             <div className="text-container">
-    <div className="gold"><h2>{stop}{questionIndex<2?"nada":" mil"}</h2></div>
+                <div className="gold"><h2>{stop}{questionIndex<2?"nada":" mil"}</h2></div>
                 <h3 className="gold-text">PARAR</h3>
             </div>
             <div className="text-container">

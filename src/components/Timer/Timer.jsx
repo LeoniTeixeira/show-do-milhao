@@ -1,6 +1,5 @@
 import React, {useEffect} from 'react';
 
-
 function Timer({timerIsActive, timer, setTimer}) {
     useEffect(() => {
         let interval = null;
@@ -13,10 +12,8 @@ function Timer({timerIsActive, timer, setTimer}) {
         }
         return () => clearInterval(interval);
       }, [timerIsActive, timer]);
-   
     return (
         <div className="question-timer"> tempo: {timer} segundos </div>
     )
 }
-
 export default Timer;
