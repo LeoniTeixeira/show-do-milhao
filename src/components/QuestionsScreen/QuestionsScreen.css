@@ -1,5 +1,5 @@
 .font{
-    font-size: x-large;
+    font-size: xx-large;
     font-family: sans-serif;
     text-transform: uppercase;
     text-shadow: 2px 2px 2px black;
@@ -33,9 +33,18 @@
 }
 
 .select-look{
+    align-items: center;
+    background: #ba1313;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 1rem;
+    border-radius: 1.5rem;
+}
+
+.correct-look{
     background-image: linear-gradient(to bottom left,
      #13ee13 , #13ba13, #13ee13,  #13ba13, #13ee13,  #13ba13);
-    transition: 400ms;
+    transition: 5000ms;
 }
 
 .question-look:hover{
@@ -85,6 +94,7 @@
     color: blue;
     text-shadow: none;
     font-size: 1.6rem;
+    text-shadow: 0 0 1rem white;
 }
 
 .gold-container{
@@ -128,4 +138,12 @@
 .text-container{
     display: flex;
     flex-direction: column;
+}
+
+.question-timer{
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 65vw;
+    margin: 1rem;
 }

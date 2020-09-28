@@ -1,14 +1,15 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-function Answer({id, answer, selected, setSelected}) {
-    const look = selected === id ? "select-look answer " : "question-look answer "
+function Answer({id, answer, selected, setSelected, correct, showCorrect}) {
+    const correctLook = correct == id && showCorrect===true ? "correct-look answer" : "question-look answer "
+    const selectedLook = selected === id ? "select-look" : "circle"
     return (
         <>
-        <div role="button" onClick={() => {setSelected(id)}} className={look}>
-            <div className="circle"><h2 className="number">{id}</h2></div>
+        <div role="button" onClick={() => {setSelected(id)}} className={correctLook}>
+            <div className={selectedLook}><h2 className="number">{id}</h2></div>
             {answer}  
         </div>
-        
+        {console.log(correct, '===', id)}
         </>
     )
 }

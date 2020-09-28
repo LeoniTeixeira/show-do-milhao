@@ -2,7 +2,7 @@
     {
         "id": 0,
         "question": " ",
-        "correct": "1",
+        "correct": 1,
         "alternatives": [
             {"id":"1",  "answer": " "},
             {"id":"2",  "answer": " "},
@@ -13,7 +13,7 @@
     {
         "id": 1,
         "question": "De quem é a famosa frase “Penso, logo existo”?",
-        "correct": "3",
+        "correct": 3,
         "alternatives": [
             {"id":"1",  "answer": "Platão"},
             {"id":"2",  "answer": "Galileu Galilei"},
@@ -24,7 +24,7 @@
     {
         "id": 2,
         "question": "De onde é a invenção do chuveiro elétrico?",
-        "correct": "3",
+        "correct": 3,
         "alternatives": [
             {"id":"1",  "answer": "França"},
             {"id":"2",  "answer": "Inglaterra"},
@@ -35,7 +35,7 @@
     {
         "id": 3,
         "question": "Quais o menor e o maior país do mundo?",
-        "correct": "1",
+        "correct": 1,
         "alternatives": [
             {"id":"1",  "answer": "Vaticano e Rússia"},
             {"id":"2",  "answer": "Nauru e China"},
@@ -46,7 +46,7 @@
     {
         "id": 4,
         "question": "Qual o nome do presidente do Brasil que ficou conhecido como Jango?",
-        "correct": "2",
+        "correct": 2,
         "alternatives": [
             {"id":"1",  "answer": "Jânio Quadros"},
             {"id":"2",  "answer": "João Goulart"},
@@ -57,7 +57,7 @@
     {
         "id": 5,
         "question": "Qual o livro mais vendido no mundo a seguir à Bíblia?",
-        "correct": "2",
+        "correct": 2,
         "alternatives": [
             {"id":"1",  "answer": "O Senhor dos Anéis"},
             {"id":"2",  "answer": "Dom Quixote"},
@@ -68,7 +68,7 @@
     {
         "id": 6,
         "question": "Quantas casas decimais tem o número pi?",
-        "correct": "4",
+        "correct": 4,
         "alternatives": [
             {"id":"1",  "answer": "Centenas"},
             {"id":"2",  "answer": "Três"},
@@ -79,7 +79,7 @@
     {
         "id": 7,
         "question": "Atualmente, quantos elementos químicos a tabela periódica possui?",
-        "correct": "1",
+        "correct": 1,
         "alternatives": [
             {"id":"1",  "answer": "118"},
             {"id":"2",  "answer": "109"},
@@ -90,7 +90,7 @@
     {
         "id": 8,
         "question": "Qual o número mínimo de jogadores em um time numa partida de futebol?",
-        "correct": "3",
+        "correct": 3,
         "alternatives": [
             {"id":"1",  "answer": "11"},
             {"id":"2",  "answer": "5"},
@@ -101,7 +101,7 @@
     {
         "id": 9,
         "question": "Quais os países que têm a maior e a menor expectativa de vida do mundo?",
-        "correct": "2",
+        "correct": 2,
         "alternatives": [
             {"id":"1",  "answer": "Austrália e Afeganistão"},
             {"id":"2",  "answer": "Japão e Serra Leoa"},
@@ -112,7 +112,7 @@
     {
         "id": 10,
         "question": "O que a palavra legend significa em português?",
-        "correct": "4",
+        "correct": 4,
         "alternatives": [
             {"id":"1",  "answer": "Legenda"},
             {"id":"2",  "answer": "História"},
@@ -123,7 +123,7 @@
     {
         "id": 11,
         "question": "Quanto tempo a luz do Sol demora para chegar à Terra?",
-        "correct": "1",
+        "correct": 1,
         "alternatives": [
             {"id":"1",  "answer": "8 minutos"},
             {"id":"2",  "answer": "4 segundos"},
@@ -134,7 +134,7 @@
     {
         "id": 12,
         "question": "Quais o menor e o maior país do mundo?",
-        "correct": "1",
+        "correct": 1,
         "alternatives": [
             {"id":"1",  "answer": "Vaticano e Rússia"},
             {"id":"2",  "answer": "Nauru e China"},
@@ -145,7 +145,7 @@
     {
         "id": 13,
         "question": "Qual a nacionalidade de Che Guevara?",
-        "correct": "2",
+        "correct": 2,
         "alternatives": [
             {"id":"1",  "answer": "Cubana"},
             {"id":"2",  "answer": "Argentina"},
@@ -156,7 +156,7 @@
     {
         "id": 14,
         "question": "Qual personagem folclórico costuma ser agradado pelos caçadores com a oferta de fumo?",
-        "correct": "3",
+        "correct": 3,
         "alternatives": [
             {"id":"1",  "answer": "Saci"},
             {"id":"2",  "answer": "Negrinho do Pastoreio"},
@@ -167,7 +167,7 @@
     {
         "id": 15,
         "question": "Em que período da pré-história o fogo foi descoberto?",
-        "correct": "4",
+        "correct": 4,
         "alternatives": [
             {"id":"1",  "answer": "Neolítico"},
             {"id":"2",  "answer": "Idade dos Metais"},
@@ -178,7 +178,7 @@
     {
         "id": 16,
         "question": "Qual a montanha mais alta do Brasil?",
-        "correct": "1",
+        "correct": 1,
         "alternatives": [
             {"id":"1",  "answer": "Pico da Neblina"},
             {"id":"2",  "answer": "Pico Paraná"},
@@ -189,7 +189,7 @@
     {
         "id": 17,
         "question": "Qual a velocidade da luz?",
-        "correct": "2",
+        "correct": 2,
         "alternatives": [
             {"id":"1",  "answer": "300.000.000 m/s"},
             {"id":"2",  "answer": "299.792.458 m/s"},
@@ -200,7 +200,7 @@
     {
         "id": 18,
         "question": "Em qual local da Ásia o português é língua oficial?",
-        "correct": "3",
+        "correct": 3,
         "alternatives": [
             {"id":"1",  "answer": "Filipinas"},
             {"id":"2",  "answer": "Índia"},
@@ -211,7 +211,7 @@
     {
         "id": 19,
         "question": "Quem é o autor de “O Príncipe”?",
-        "correct": "4",
+        "correct": 4,
         "alternatives": [
             {"id":"1",  "answer": "Rousseau"},
             {"id":"2",  "answer": "Thomas Hobbes"},
@@ -222,7 +222,7 @@
     {
         "id": 20,
         "question": "Qual destes países é transcontinental?",
-        "correct": "1",
+        "correct": 1,
         "alternatives": [
             {"id":"1",  "answer": "Rússia"},
             {"id":"2",  "answer": "Groenlândia"},
@@ -233,7 +233,7 @@
     {
         "id": 21,
         "question": "Júpiter e Plutão são os correlatos romanos de quais deuses gregos?",
-        "correct": "2",
+        "correct": 2,
         "alternatives": [
             {"id":"1",  "answer": "Ares e Hermes"},
             {"id":"2",  "answer": "Zeus e Hades"},
@@ -244,7 +244,7 @@
     {
         "id": 22,
         "question": "Qual o maior animal terrestre?",
-        "correct": "3",
+        "correct": 3,
         "alternatives": [
             {"id":"1",  "answer": "Baleia Azul"},
             {"id":"2",  "answer": "Girafa"},
@@ -255,7 +255,7 @@
     {
         "id": 23,
         "question": "Que líder mundial ficou conhecida como “Dama de Ferro”?",
-        "correct": "4",
+        "correct": 4,
         "alternatives": [
             {"id":"1",  "answer": "Dilma Rousseff"},
             {"id":"2",  "answer": "Angela Merkel"},
@@ -266,7 +266,7 @@
     {
         "id": 24,
         "question": "Quais os nomes dos três Reis Magos?",
-        "correct": "1",
+        "correct": 1,
         "alternatives": [
             {"id":"1",  "answer": "Belchior, Gaspar e Baltazar"},
             {"id":"2",  "answer": "Gaspar, Nicolau e Natanael"},

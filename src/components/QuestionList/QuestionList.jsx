@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Answer from '../Answer/Answer';
 import Score from '../Score/Score';
 
-function QuestionList({question, selected, setSelected, questionIndex}) {
+function QuestionList({question, selected, setSelected, questionIndex, showCorrect}) {
     return (
         <> 
             <div className="question-look question">
@@ -12,7 +12,9 @@ function QuestionList({question, selected, setSelected, questionIndex}) {
             <Answer key={alternative.id}
                 {...alternative}
                 selected={selected} 
-                setSelected={setSelected}         
+                setSelected={setSelected}   
+                correct={question.correct} 
+                showCorrect={showCorrect}     
                                 />
             )}
             <Score questionIndex={questionIndex}/>
