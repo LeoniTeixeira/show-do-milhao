@@ -169,19 +169,15 @@
     color: red;
     position: absolute;
     top: 0;
-    background-image: linear-gradient( to right, rgba(0, 0, 0, 0.144), black, rgba(0, 0, 0, 0.144));
+    background-image: linear-gradient( to right, rgba(0, 0, 0, 0.01), black, rgba(0, 0, 0, 0.01));
     display: flex;
     width: 20vw;
     height:15vh;
     margin-top: 35vh;
     margin-left: 40vw;
     flex-direction: column;
-    padding: 4rem 0 0 0;
+    padding: 3rem 0 0 0;
     text-align: center;
-}
-
-.btn-confirm-container{
-    margin-top: 1rem;
 }
 
 .confirm-btn{

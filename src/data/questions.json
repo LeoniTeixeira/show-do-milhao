@@ -7,7 +7,7 @@
             {"id":"1",  "answer": " "},
             {"id":"2",  "answer": " "},
             {"id":"3",  "answer": " "},
-            {"id":"4  ",  "answer": " "}
+            {"id":"4",  "answer": " "}
         ]
     },
     {
@@ -272,6 +272,160 @@
             {"id":"2",  "answer": "Gaspar, Nicolau e Natanael"},
             {"id":"3",  "answer": "Gabriel, Benjamim e Melchior"},
             {"id":"4",  "answer": "Melchior, Noé e Galileu"}
+        ]
+    },
+    {
+        "id": 25,
+        "question": "Em que ano o Titanic afundou no Oceano Atlântico?",
+        "correct": 2,
+        "alternatives": [
+            {"id":"1",  "answer": "1902"},
+            {"id":"2",  "answer": "1912"},
+            {"id":"3",  "answer": "1916"},
+            {"id":"4",  "answer": "1956"}
+        ]
+    },
+    {
+        "id": 26,
+        "question": "Qual metal foi descoberto por Hans Christian Oersted em 1825?",
+        "correct": 3,
+        "alternatives": [
+            {"id":"1",  "answer": "titânio"},
+            {"id":"2",  "answer": "aço"},
+            {"id":"3",  "answer": "alumínio"},
+            {"id":"4",  "answer": "cobre"}
+        ]
+    },
+    {
+        "id": 27,
+        "question": "Qual é a capital de Portugal?",
+        "correct": 4,
+        "alternatives": [
+            {"id":"1",  "answer": "Porto"},
+            {"id":"2",  "answer": "Sintra"},
+            {"id":"3",  "answer": "Cascais"},
+            {"id":"4",  "answer": "Lisboa"}
+        ]
+    },
+    {
+        "id": 28,
+        "question": "Qual é o símbolo químico da prata?",
+        "correct": 1,
+        "alternatives": [
+            {"id":"1",  "answer": "Ag"},
+            {"id":"2",  "answer": "Pr"},
+            {"id":"3",  "answer": "Pt"},
+            {"id":"4",  "answer": "Pa"}
+        ]
+    },
+    {
+        "id": 29,
+        "question": "Qual é a vida útil de uma libélula?",
+        "correct": 1,
+        "alternatives": [
+            {"id":"1",  "answer": "24 horas"},
+            {"id":"2",  "answer": "1 semana"},
+            {"id":"3",  "answer": "3 dias"},
+            {"id":"4",  "answer": "8 horas"}
+        ]
+    },
+    {
+        "id": 30,
+        "question": "O que o cartão de visita de Al Capone indicava sua ocupação? ",
+        "correct": 2,
+        "alternatives": [
+            {"id":"1",  "answer": "Uma mafioso"},
+            {"id":"2",  "answer": "Um vendedor de móveis usados"},
+            {"id":"3",  "answer": "Um mecânico de motos"},
+            {"id":"4",  "answer": "Um dono de oficina mecânica"}
+        ]
+    },
+    {
+        "id": 31,
+        "question": "Em que ano o Poderoso Chefão foi lançado pela primeira vez?",
+        "correct": 3,
+        "alternatives": [
+            {"id":"1",  "answer": "1968"},
+            {"id":"2",  "answer": "1974"},
+            {"id":"3",  "answer": "1972"},
+            {"id":"4",  "answer": "1978"}
+        ]
+    },
+    {
+        "id": 32,
+        "question": "Qual atriz interpretou Mary Poppins no filme de 1964?",
+        "correct": 4,
+        "alternatives": [
+            {"id":"1",  "answer": "Shirley MacLaine"},
+            {"id":"2",  "answer": "Leslie Caron"},
+            {"id":"3",  "answer": "Patricia Neal"},
+            {"id":"4",  "answer": "Julie Andrews"}
+        ]
+    },
+    {
+        "id": 33,
+        "question": "Em que esporte Neil Adams se destacou?",
+        "correct": 1,
+        "alternatives": [
+            {"id":"1",  "answer": "Judô"},
+            {"id":"2",  "answer": "Futebol"},
+            {"id":"3",  "answer": "Tênis"},
+            {"id":"4",  "answer": "Vôlei"}
+        ]
+    },
+    {
+        "id": 34,
+        "question": "Que país venceu a Copa do Mundo de futebol em 1982 na Espanha?",
+        "correct": 2,
+        "alternatives": [
+            {"id":"1",  "answer": "Brasil"},
+            {"id":"2",  "answer": "Itália"},
+            {"id":"3",  "answer": "Alemanha Ocidental"},
+            {"id":"4",  "answer": "Argentina"}
+        ]
+    },
+    {
+        "id": 35,
+        "question": "Quantos jogadores existem em uma equipe olímpica de curling?",
+        "correct": 3,
+        "alternatives": [
+            {"id":"1",  "answer": "Três"},
+            {"id":"2",  "answer": "Nove"},
+            {"id":"3",  "answer": "Quatro"},
+            {"id":"4",  "answer": "Quinze"}
+        ]
+    },
+    {
+        "id": 36,
+        "question": "Quantos corações tem um polvo?",
+        "correct": 4,
+        "alternatives": [
+            {"id":"1",  "answer": "Cinco"},
+            {"id":"2",  "answer": "Dois"},
+            {"id":"3",  "answer": "Um"},
+            {"id":"4",  "answer": "Três"}
+        ]
+    },
+    {
+        "id": 37,
+        "question": "Qual é a temperatura média da superfície em Vênus?",
+        "correct": 1,
+        "alternatives": [
+            {"id":"1",  "answer": "460° C"},
+            {"id":"2",  "answer": "400° C"},
+            {"id":"3",  "answer": "380° C"},
+            {"id":"4",  "answer": "500° C"}
+        ]
+    },
+    {
+        "id": 38,
+        "question": "Em que ano os Beatles foram aos EUA pela primeira vez?",
+        "correct": 2,
+        "alternatives": [
+            {"id":"1",  "answer": "1966"},
+            {"id":"2",  "answer": "1964"},
+            {"id":"3",  "answer": "1960"},
+            {"id":"4",  "answer": "1970"}
         ]
     }
 ]

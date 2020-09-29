@@ -9,9 +9,9 @@ function FinishedScreen({questionIndex, setQuestionIndex, condition, setScreen, 
         <div className="finished-bg font">
                 <h1>Você levou para casa!</h1>
                 <h1>{condition==='stop'?stop:miss}{miss===null&&stop===null?"Nada":""}
-                  {questionIndex>1&&questionIndex<17?" Mil":""}{questionIndex===17?" Milhão":""}</h1>
+                  {questionIndex>1&&questionIndex<17?" Mil Reais":""}{questionIndex===17?" Milhão de reais":""}</h1>
                 <img className="gold-image" src={Gold} alt=""/>
-                <h1>Em barras de ouro</h1>
+                {miss===null&&stop===null?<h1/>:<h1>Em barras de ouro</h1>}
         </div>
     )
 }

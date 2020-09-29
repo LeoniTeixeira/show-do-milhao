@@ -12,9 +12,11 @@ function QuestionsScreen({ setScreen, questionIndex, setQuestionIndex, setCondit
     const [ timer, setTimer ] = useState(0)
     const [ timerIsActive, setTimerIsActive ] = useState(false)
     const [ showCorrect, setShowCorrect ] = useState(false)
+    const [ confirmAnswer, setConfirmAnswer ] = useState(false)
     function newQuestion(){
         const randomNum = Math.floor(Math.random() * (questionList.length - 1)) + 1
         const choose = questionList[randomNum]
+        setConfirmAnswer(false)
         setTimer(20)
         setTimerIsActive(true)
         setShowCorrect(false)
@@ -85,6 +87,8 @@ function QuestionsScreen({ setScreen, questionIndex, setQuestionIndex, setCondit
                     setMiss={setMiss}
                     stop={stop}
                     setStop={setStop}
+                    confirmAnswer={confirmAnswer}
+                    setConfirmAnswer={setConfirmAnswer}
                 />
             </div>
             <Timer timer={timer} setTimer={setTimer} timerIsActive={timerIsActive} setTimerIsActive={setTimerIsActive}/>

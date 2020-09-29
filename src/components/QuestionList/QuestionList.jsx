@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Answer from '../Answer/Answer';
 import Score from '../Score/Score';
-function QuestionList({question, selected, setSelected, questionIndex, showCorrect, setTimer, miss, setMiss, stop, setStop}) {
+function QuestionList({question, selected, setSelected, questionIndex, showCorrect, setTimer, miss, setMiss, stop, setStop, confirmAnswer, setConfirmAnswer}) {
     return (
         <> 
             <div className="question-look question">
@@ -14,7 +14,9 @@ function QuestionList({question, selected, setSelected, questionIndex, showCorre
                 setSelected={setSelected}   
                 correct={question.correct} 
                 showCorrect={showCorrect} 
-                setTimer={setTimer}    
+                setTimer={setTimer} 
+                confirmAnswer={confirmAnswer}
+                setConfirmAnswer={setConfirmAnswer}   
                                 />
             )}
             <Score 

@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-function Answer({id, answer, selected, setSelected, correct, showCorrect, setTimer}) {
+function Answer({id, answer, selected, setSelected, correct, showCorrect, setTimer, confirmAnswer, setConfirmAnswer}) {
     const correctLook = correct == id && showCorrect===true ? "correct-look answer" : "question-look answer "
     const selectedLook = selected === id ? "select-look" : "circle"
-    const [ confirmAnswer, setConfirmAnswer ] = useState(false)
     function handleClick(){
         setSelected(id)
         setConfirmAnswer(true)
