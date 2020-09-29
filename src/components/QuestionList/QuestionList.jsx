@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import Answer from '../Answer/Answer';
 import Score from '../Score/Score';
-
-function QuestionList({question, selected, setSelected, questionIndex, showCorrect, setTimer}) {
+function QuestionList({question, selected, setSelected, questionIndex, showCorrect, setTimer, miss, setMiss, stop, setStop}) {
     return (
         <> 
             <div className="question-look question">
@@ -18,7 +17,13 @@ function QuestionList({question, selected, setSelected, questionIndex, showCorre
                 setTimer={setTimer}    
                                 />
             )}
-            <Score questionIndex={questionIndex}/>
+            <Score 
+                questionIndex={questionIndex}
+                miss={miss}
+                setMiss={setMiss}
+                stop={stop}
+                setStop={setStop}
+            />
         </>
     )
 }

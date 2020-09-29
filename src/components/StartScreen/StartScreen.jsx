@@ -1,8 +1,8 @@
 import React from 'react';
 import Logo from '../../assets/img/show.png'
 import './StartScreen.css'
-
-function StartScreen({setScreen}) {
+function StartScreen({setScreen, setQuestionIndex}) {
+    setQuestionIndex(0)
     return (
         <div className="background-start-screen">
             <div className="logo-background">
@@ -11,7 +11,7 @@ function StartScreen({setScreen}) {
             <div className="start-menu">
                 <label htmlFor="inputName">Digite o seu nome: </label>
                 <input id="inputName" type="text"/>
-                <div role="button" onClick={()=>setScreen(1)} className="button-start">
+                <div role="button" onClick={()=>setScreen('game')} className="button-start">
                     Jogar
                 </div>
             </div>

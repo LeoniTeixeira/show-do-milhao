@@ -1,8 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
-function Score({questionIndex}) {
-    const [ miss, setMiss ] = useState(null)
-    const [ stop, setStop] = useState(null)
+function Score({questionIndex, miss, setMiss, stop, setStop}) {
     const [ scored, setScored ] = useState(0)
     useEffect(()=>{
         if (questionIndex < 6 && questionIndex > 0) {

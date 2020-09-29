@@ -7,12 +7,12 @@
 }
 
 .logo-background{
-    height: 27vh;
+    height: 29vh;
     width: 28vw;
     margin: 15vh auto;
     background-image: linear-gradient( to bottom left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
-    /* border: 2px solid yellow; */
-    border-radius: 0.8rem;
+    border: 4px outset yellow;
+    
     /* box-shadow: 0.5rem 0.5rem 2rem rgba(0, 0, 0, 0.3); */
 }
 

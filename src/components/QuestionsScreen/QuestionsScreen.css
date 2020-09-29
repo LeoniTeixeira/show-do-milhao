@@ -1,5 +1,5 @@
 .font{
-    font-size: x-large;
+    font-size: xx-large;
     font-family: sans-serif;
     text-transform: uppercase;
     text-shadow: 2px 2px 2px black;
@@ -21,7 +21,7 @@
 .questions-container{
     position: absolute;
     top: 0;
-    border-right: 2px solid whitesmoke;
+    border-right: 2px inset whitesmoke;
     width: 35vw;
     margin-top: auto;
     height: 100vh;
@@ -60,7 +60,7 @@
     width: 32vw;
     padding: 2vh 2vw;
     margin: 28vh 0 2vh;
-    border: 2px solid white;
+    border: 3px outset white;
     border-left: none;
     border-top-right-radius: 0.8rem ;
     border-bottom-right-radius: 0.8rem;
@@ -169,14 +169,51 @@
     color: red;
     position: absolute;
     top: 0;
-    background: white;
+    background-image: linear-gradient( to right, rgba(0, 0, 0, 0.144), black, rgba(0, 0, 0, 0.144));
     display: flex;
-    width: 30vw;
-    height: 20vh;
+    width: 20vw;
+    height:15vh;
     margin-top: 35vh;
     margin-left: 40vw;
     flex-direction: column;
-    padding: 1rem;
+    padding: 4rem 0 0 0;
     text-align: center;
-    z-index: 1;
+}
+
+.btn-confirm-container{
+    margin-top: 1rem;
+}
+
+.confirm-btn{
+    padding: 0.4rem 1.2rem;
+    margin: 1rem;
+    text-transform: uppercase;
+    color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+
+.no-color{
+    background: red;
+}
+
+.yes-color{
+    background: green;
+}
+
+.finished-bg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right,
+   rgb(252, 252, 145), rgb(223, 223, 22), black);
+   color: white;
+}
+
+.gold-image{
+    width: 30vw;
 }
