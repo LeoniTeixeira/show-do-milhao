@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Answer from '../Answer/Answer';
 import Score from '../Score/Score';
 function QuestionList({question, selected, setSelected, questionIndex, showCorrect, setTimer, miss, setMiss, stop, setStop, confirmAnswer, setConfirmAnswer}) {

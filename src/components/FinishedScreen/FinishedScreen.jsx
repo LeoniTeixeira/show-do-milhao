@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+/* eslint-disable jsx-a11y/heading-has-content */
+import React from 'react';
 import Gold from '../../assets/img/gold.png'
-function FinishedScreen({questionIndex, setQuestionIndex, condition, setScreen, stop, miss}) {
+function FinishedScreen({questionIndex, condition, setScreen, stop, miss}) {
     setTimeout(() => {
         setScreen('start')
-    }, 5000)
-    console.log(questionIndex)
+    }, 3500)
     return (
         <div className="finished-bg font">
                 <h1>Você levou para casa!</h1>

@@ -3,7 +3,7 @@ import QuestionsScreen from './components/QuestionsScreen/QuestionsScreen'
 import StartScreen from './components/StartScreen/StartScreen'
 import FinishedScreen from './components/FinishedScreen/FinishedScreen';
 import './App.css';
-function App() {
+export default function App() {
   const [ screen, setScreen ] = useState('start')
   const [ questionIndex, setQuestionIndex ] = useState(0)
   const [ condition, setCondition ] = useState('stop')
@@ -33,6 +33,8 @@ function App() {
                   stop={stop}
                   miss={miss}
                 />
+      default:
+        break;
     }
   }
   return (
@@ -41,5 +43,5 @@ function App() {
     </div>
   );
 }
-export default App;
+
 

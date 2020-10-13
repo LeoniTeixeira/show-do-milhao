@@ -7,8 +7,9 @@
 }
 
 .logo-background{
-    height: 29vh;
-    width: 28vw;
+    height: 24vh;
+    max-width: 25.5rem;
+    width: 70vw;
     margin: 15vh auto;
     background-image: linear-gradient( to bottom left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
     border: 4px outset yellow;
@@ -18,15 +19,16 @@
 
 .logo-start{
     padding: 0;
-    margin: 0%;
-    width: 28.5vw;
+    margin: 2vh 2vw;
+    max-width: 22rem;
+    width: 66vw;
 }
 
 .start-menu{
     text-align: center;
     display: flex;
     flex-direction: column;
-    width: 25vw;
+    width: 100vw;
     margin: 0 auto;
     font-family: sans-serif;
     color: white;
@@ -34,14 +36,16 @@
 }
 
 #inputName{
-    width: 15vw;
+    width: 60vw;
+    max-width: 20rem;
     margin: 1vh auto;
     padding: 1.5vh;
     border-radius: 0.5rem;
 }
 
 .button-start{
-    width: 15vw;
+    width: 40vw;
+    max-width: 12rem;
     margin: 1vh auto;
     padding: 1.5vh;
     border-radius: 0.5rem;

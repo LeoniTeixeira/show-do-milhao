@@ -4,10 +4,10 @@
         "question": " ",
         "correct": 1,
         "alternatives": [
-            {"id":"1",  "answer": " "},
-            {"id":"2",  "answer": " "},
-            {"id":"3",  "answer": " "},
-            {"id":"4",  "answer": " "}
+            {"id":1,  "answer": " "},
+            {"id":2,  "answer": " "},
+            {"id":3,  "answer": " "},
+            {"id":4,  "answer": " "}
         ]
     },
     {
@@ -15,10 +15,10 @@
         "question": "De quem é a famosa frase “Penso, logo existo”?",
         "correct": 3,
         "alternatives": [
-            {"id":"1",  "answer": "Platão"},
-            {"id":"2",  "answer": "Galileu Galilei"},
-            {"id":"3",  "answer": "Descartes"},
-            {"id":"4",  "answer": "Sócrates"}
+            {"id":1,  "answer": "Platão"},
+            {"id":2,  "answer": "Galileu Galilei"},
+            {"id":3,  "answer": "Descartes"},
+            {"id":4,  "answer": "Sócrates"}
         ]
     },
     {
@@ -26,10 +26,10 @@
         "question": "De onde é a invenção do chuveiro elétrico?",
         "correct": 3,
         "alternatives": [
-            {"id":"1",  "answer": "França"},
-            {"id":"2",  "answer": "Inglaterra"},
-            {"id":"3",  "answer": "Brasil"},
-            {"id":"4",  "answer": "Austrália"}
+            {"id":1,  "answer": "França"},
+            {"id":2,  "answer": "Inglaterra"},
+            {"id":3,  "answer": "Brasil"},
+            {"id":4,  "answer": "Austrália"}
         ]
     },
     {
@@ -37,10 +37,10 @@
         "question": "Quais o menor e o maior país do mundo?",
         "correct": 1,
         "alternatives": [
-            {"id":"1",  "answer": "Vaticano e Rússia"},
-            {"id":"2",  "answer": "Nauru e China"},
-            {"id":"3",  "answer": "Mônaco e Canadá"},
-            {"id":"4",  "answer": "Malta e Estados Unidos"}
+            {"id":1,  "answer": "Vaticano e Rússia"},
+            {"id":2,  "answer": "Nauru e China"},
+            {"id":3,  "answer": "Mônaco e Canadá"},
+            {"id":4,  "answer": "Malta e Estados Unidos"}
         ]
     },
     {
@@ -48,10 +48,10 @@
         "question": "Qual o nome do presidente do Brasil que ficou conhecido como Jango?",
         "correct": 2,
         "alternatives": [
-            {"id":"1",  "answer": "Jânio Quadros"},
-            {"id":"2",  "answer": "João Goulart"},
-            {"id":"3",  "answer": "Getúlio Vargas"},
-            {"id":"4",  "answer": "Jacinto Anjos"}
+            {"id":1,  "answer": "Jânio Quadros"},
+            {"id":2,  "answer": "João Goulart"},
+            {"id":3,  "answer": "Getúlio Vargas"},
+            {"id":4,  "answer": "Jacinto Anjos"}
         ]
     },
     {
@@ -59,10 +59,10 @@
         "question": "Qual o livro mais vendido no mundo a seguir à Bíblia?",
         "correct": 2,
         "alternatives": [
-            {"id":"1",  "answer": "O Senhor dos Anéis"},
-            {"id":"2",  "answer": "Dom Quixote"},
-            {"id":"3",  "answer": "O Pequeno Príncipe"},
-            {"id":"4",  "answer": "Um Conto de Duas Cidades"}
+            {"id":1,  "answer": "O Senhor dos Anéis"},
+            {"id":2,  "answer": "Dom Quixote"},
+            {"id":3,  "answer": "O Pequeno Príncipe"},
+            {"id":4,  "answer": "Um Conto de Duas Cidades"}
         ]
     },
     {
@@ -70,10 +70,10 @@
         "question": "Quantas casas decimais tem o número pi?",
         "correct": 4,
         "alternatives": [
-            {"id":"1",  "answer": "Centenas"},
-            {"id":"2",  "answer": "Três"},
-            {"id":"3",  "answer": "Duas"},
-            {"id":"4",  "answer": "Infinitas"}
+            {"id":1,  "answer": "Centenas"},
+            {"id":2,  "answer": "Três"},
+            {"id":3,  "answer": "Duas"},
+            {"id":4,  "answer": "Infinitas"}
         ]
     },
     {
@@ -81,10 +81,10 @@
         "question": "Atualmente, quantos elementos químicos a tabela periódica possui?",
         "correct": 1,
         "alternatives": [
-            {"id":"1",  "answer": "118"},
-            {"id":"2",  "answer": "109"},
-            {"id":"3",  "answer": "113"},
-            {"id":"4",  "answer": "92"}
+            {"id":1,  "answer": "118"},
+            {"id":2,  "answer": "109"},
+            {"id":3,  "answer": "113"},
+            {"id":4,  "answer": "92"}
         ]
     },
     {
@@ -92,10 +92,10 @@
         "question": "Qual o número mínimo de jogadores em um time numa partida de futebol?",
         "correct": 3,
         "alternatives": [
-            {"id":"1",  "answer": "11"},
-            {"id":"2",  "answer": "5"},
-            {"id":"3",  "answer": "7"},
-            {"id":"4",  "answer": "9"}
+            {"id":1,  "answer": "11"},
+            {"id":2,  "answer": "5"},
+            {"id":3,  "answer": "7"},
+            {"id":4,  "answer": "9"}
         ]
     },
     {
@@ -103,10 +103,10 @@
         "question": "Quais os países que têm a maior e a menor expectativa de vida do mundo?",
         "correct": 2,
         "alternatives": [
-            {"id":"1",  "answer": "Austrália e Afeganistão"},
-            {"id":"2",  "answer": "Japão e Serra Leoa"},
-            {"id":"3",  "answer": "Itália e Chade"},
-            {"id":"4",  "answer": "Estados Unidos e Angola"}
+            {"id":1,  "answer": "Austrália e Afeganistão"},
+            {"id":2,  "answer": "Japão e Serra Leoa"},
+            {"id":3,  "answer": "Itália e Chade"},
+            {"id":4,  "answer": "Estados Unidos e Angola"}
         ]
     },
     {
@@ -114,10 +114,10 @@
         "question": "O que a palavra legend significa em português?",
         "correct": 4,
         "alternatives": [
-            {"id":"1",  "answer": "Legenda"},
-            {"id":"2",  "answer": "História"},
-            {"id":"3",  "answer": "Legendário"},
-            {"id":"4",  "answer": "Lenda"}
+            {"id":1,  "answer": "Legenda"},
+            {"id":2,  "answer": "História"},
+            {"id":3,  "answer": "Legendário"},
+            {"id":4,  "answer": "Lenda"}
         ]
     },
     {
@@ -125,21 +125,21 @@
         "question": "Quanto tempo a luz do Sol demora para chegar à Terra?",
         "correct": 1,
         "alternatives": [
-            {"id":"1",  "answer": "8 minutos"},
-            {"id":"2",  "answer": "4 segundos"},
-            {"id":"3",  "answer": "1 dia"},
-            {"id":"4",  "answer": "12 minutos"}
+            {"id":1,  "answer": "8 minutos"},
+            {"id":2,  "answer": "4 segundos"},
+            {"id":3,  "answer": "1 dia"},
+            {"id":4,  "answer": "12 minutos"}
         ]
     },
     {
         "id": 12,
-        "question": "Quais o menor e o maior país do mundo?",
+        "question": "Quem foi o primeiro homem a pisar na Lua?",
         "correct": 1,
         "alternatives": [
-            {"id":"1",  "answer": "Vaticano e Rússia"},
-            {"id":"2",  "answer": "Nauru e China"},
-            {"id":"3",  "answer": "Mônaco e Canadá"},
-            {"id":"4",  "answer": "Malta e Estados Unidos"}
+            {"id":1,  "answer": "Neil Armstrong"},
+            {"id":2,  "answer": "Buzz Aldrin"},
+            {"id":3,  "answer": "Charles Conrad"},
+            {"id":4,  "answer": "Charles Duke"}
         ]
     },
     {
@@ -147,10 +147,10 @@
         "question": "Qual a nacionalidade de Che Guevara?",
         "correct": 2,
         "alternatives": [
-            {"id":"1",  "answer": "Cubana"},
-            {"id":"2",  "answer": "Argentina"},
-            {"id":"3",  "answer": "Boliviana"},
-            {"id":"4",  "answer": "Peruana"}
+            {"id":1,  "answer": "Cubana"},
+            {"id":2,  "answer": "Argentina"},
+            {"id":3,  "answer": "Boliviana"},
+            {"id":4,  "answer": "Peruana"}
         ]
     },
     {
@@ -158,10 +158,10 @@
         "question": "Qual personagem folclórico costuma ser agradado pelos caçadores com a oferta de fumo?",
         "correct": 3,
         "alternatives": [
-            {"id":"1",  "answer": "Saci"},
-            {"id":"2",  "answer": "Negrinho do Pastoreio"},
-            {"id":"3",  "answer": "Caipora"},
-            {"id":"4",  "answer": "Boitatá"}
+            {"id":1,  "answer": "Saci"},
+            {"id":2,  "answer": "Negrinho do Pastoreio"},
+            {"id":3,  "answer": "Caipora"},
+            {"id":4,  "answer": "Boitatá"}
         ]
     },
     {
@@ -169,10 +169,10 @@
         "question": "Em que período da pré-história o fogo foi descoberto?",
         "correct": 4,
         "alternatives": [
-            {"id":"1",  "answer": "Neolítico"},
-            {"id":"2",  "answer": "Idade dos Metais"},
-            {"id":"3",  "answer": "Idade Média"},
-            {"id":"4",  "answer": "Paleolítico"}
+            {"id":1,  "answer": "Neolítico"},
+            {"id":2,  "answer": "Idade dos Metais"},
+            {"id":3,  "answer": "Idade Média"},
+            {"id":4,  "answer": "Paleolítico"}
         ]
     },
     {
@@ -180,10 +180,10 @@
         "question": "Qual a montanha mais alta do Brasil?",
         "correct": 1,
         "alternatives": [
-            {"id":"1",  "answer": "Pico da Neblina"},
-            {"id":"2",  "answer": "Pico Paraná"},
-            {"id":"3",  "answer": "Monte Roraima"},
-            {"id":"4",  "answer": "Pico da Bandeira"}
+            {"id":1,  "answer": "Pico da Neblina"},
+            {"id":2,  "answer": "Pico Paraná"},
+            {"id":3,  "answer": "Monte Roraima"},
+            {"id":4,  "answer": "Pico da Bandeira"}
         ]
     },
     {
@@ -191,10 +191,10 @@
         "question": "Qual a velocidade da luz?",
         "correct": 2,
         "alternatives": [
-            {"id":"1",  "answer": "300.000.000 m/s"},
-            {"id":"2",  "answer": "299.792.458 m/s"},
-            {"id":"3",  "answer": "199.792.458 m/s"},
-            {"id":"4",  "answer": "150.000.000 m/s"}
+            {"id":1,  "answer": "300.000.000 m/s"},
+            {"id":2,  "answer": "299.792.458 m/s"},
+            {"id":3,  "answer": "199.792.458 m/s"},
+            {"id":4,  "answer": "150.000.000 m/s"}
         ]
     },
     {
@@ -202,10 +202,10 @@
         "question": "Em qual local da Ásia o português é língua oficial?",
         "correct": 3,
         "alternatives": [
-            {"id":"1",  "answer": "Filipinas"},
-            {"id":"2",  "answer": "Índia"},
-            {"id":"3",  "answer": "Macau"},
-            {"id":"4",  "answer": "Moçambique"}
+            {"id":1,  "answer": "Filipinas"},
+            {"id":2,  "answer": "Índia"},
+            {"id":3,  "answer": "Macau"},
+            {"id":4,  "answer": "Moçambique"}
         ]
     },
     {
@@ -213,10 +213,10 @@
         "question": "Quem é o autor de “O Príncipe”?",
         "correct": 4,
         "alternatives": [
-            {"id":"1",  "answer": "Rousseau"},
-            {"id":"2",  "answer": "Thomas Hobbes"},
-            {"id":"3",  "answer": "Montesquieu"},
-            {"id":"4",  "answer": "Maquiavel"}
+            {"id":1,  "answer": "Rousseau"},
+            {"id":2,  "answer": "Thomas Hobbes"},
+            {"id":3,  "answer": "Montesquieu"},
+            {"id":4,  "answer": "Maquiavel"}
         ]
     },
     {
@@ -224,10 +224,10 @@
         "question": "Qual destes países é transcontinental?",
         "correct": 1,
         "alternatives": [
-            {"id":"1",  "answer": "Rússia"},
-            {"id":"2",  "answer": "Groenlândia"},
-            {"id":"3",  "answer": "Austrália"},
-            {"id":"4",  "answer": "Filipinas"}
+            {"id":1,  "answer": "Rússia"},
+            {"id":2,  "answer": "Groenlândia"},
+            {"id":3,  "answer": "Austrália"},
+            {"id":4,  "answer": "Filipinas"}
         ]
     },
     {
@@ -235,10 +235,10 @@
         "question": "Júpiter e Plutão são os correlatos romanos de quais deuses gregos?",
         "correct": 2,
         "alternatives": [
-            {"id":"1",  "answer": "Ares e Hermes"},
-            {"id":"2",  "answer": "Zeus e Hades"},
-            {"id":"3",  "answer": "Cronos e Apolo"},
-            {"id":"4",  "answer": "Zeus e Ares"}
+            {"id":1,  "answer": "Ares e Hermes"},
+            {"id":2,  "answer": "Zeus e Hades"},
+            {"id":3,  "answer": "Cronos e Apolo"},
+            {"id":4,  "answer": "Zeus e Ares"}
         ]
     },
     {
@@ -246,10 +246,10 @@
         "question": "Qual o maior animal terrestre?",
         "correct": 3,
         "alternatives": [
-            {"id":"1",  "answer": "Baleia Azul"},
-            {"id":"2",  "answer": "Girafa"},
-            {"id":"3",  "answer": "Elefante africano"},
-            {"id":"4",  "answer": "Tubarão Branco"}
+            {"id":1,  "answer": "Baleia Azul"},
+            {"id":2,  "answer": "Girafa"},
+            {"id":3,  "answer": "Elefante africano"},
+            {"id":4,  "answer": "Tubarão Branco"}
         ]
     },
     {
@@ -257,10 +257,10 @@
         "question": "Que líder mundial ficou conhecida como “Dama de Ferro”?",
         "correct": 4,
         "alternatives": [
-            {"id":"1",  "answer": "Dilma Rousseff"},
-            {"id":"2",  "answer": "Angela Merkel"},
-            {"id":"3",  "answer": "Hillary Clinton"},
-            {"id":"4",  "answer": "Margaret Thatcher"}
+            {"id":1,  "answer": "Dilma Rousseff"},
+            {"id":2,  "answer": "Angela Merkel"},
+            {"id":3,  "answer": "Hillary Clinton"},
+            {"id":4,  "answer": "Margaret Thatcher"}
         ]
     },
     {
@@ -268,10 +268,10 @@
         "question": "Quais os nomes dos três Reis Magos?",
         "correct": 1,
         "alternatives": [
-            {"id":"1",  "answer": "Belchior, Gaspar e Baltazar"},
-            {"id":"2",  "answer": "Gaspar, Nicolau e Natanael"},
-            {"id":"3",  "answer": "Gabriel, Benjamim e Melchior"},
-            {"id":"4",  "answer": "Melchior, Noé e Galileu"}
+            {"id":1,  "answer": "Belchior, Gaspar e Baltazar"},
+            {"id":2,  "answer": "Gaspar, Nicolau e Natanael"},
+            {"id":3,  "answer": "Gabriel, Benjamim e Melchior"},
+            {"id":4,  "answer": "Melchior, Noé e Galileu"}
         ]
     },
     {
@@ -279,10 +279,10 @@
         "question": "Em que ano o Titanic afundou no Oceano Atlântico?",
         "correct": 2,
         "alternatives": [
-            {"id":"1",  "answer": "1902"},
-            {"id":"2",  "answer": "1912"},
-            {"id":"3",  "answer": "1916"},
-            {"id":"4",  "answer": "1956"}
+            {"id":1,  "answer": "1902"},
+            {"id":2,  "answer": "1912"},
+            {"id":3,  "answer": "1916"},
+            {"id":4,  "answer": "1956"}
         ]
     },
     {
@@ -290,10 +290,10 @@
         "question": "Qual metal foi descoberto por Hans Christian Oersted em 1825?",
         "correct": 3,
         "alternatives": [
-            {"id":"1",  "answer": "titânio"},
-            {"id":"2",  "answer": "aço"},
-            {"id":"3",  "answer": "alumínio"},
-            {"id":"4",  "answer": "cobre"}
+            {"id":1,  "answer": "titânio"},
+            {"id":2,  "answer": "aço"},
+            {"id":3,  "answer": "alumínio"},
+            {"id":4,  "answer": "cobre"}
         ]
     },
     {
@@ -301,10 +301,10 @@
         "question": "Qual é a capital de Portugal?",
         "correct": 4,
         "alternatives": [
-            {"id":"1",  "answer": "Porto"},
-            {"id":"2",  "answer": "Sintra"},
-            {"id":"3",  "answer": "Cascais"},
-            {"id":"4",  "answer": "Lisboa"}
+            {"id":1,  "answer": "Porto"},
+            {"id":2,  "answer": "Sintra"},
+            {"id":3,  "answer": "Cascais"},
+            {"id":4,  "answer": "Lisboa"}
         ]
     },
     {
@@ -312,10 +312,10 @@
         "question": "Qual é o símbolo químico da prata?",
         "correct": 1,
         "alternatives": [
-            {"id":"1",  "answer": "Ag"},
-            {"id":"2",  "answer": "Pr"},
-            {"id":"3",  "answer": "Pt"},
-            {"id":"4",  "answer": "Pa"}
+            {"id":1,  "answer": "Ag"},
+            {"id":2,  "answer": "Pr"},
+            {"id":3,  "answer": "Pt"},
+            {"id":4,  "answer": "Pa"}
         ]
     },
     {
@@ -323,10 +323,10 @@
         "question": "Qual é a vida útil de uma libélula?",
         "correct": 1,
         "alternatives": [
-            {"id":"1",  "answer": "24 horas"},
-            {"id":"2",  "answer": "1 semana"},
-            {"id":"3",  "answer": "3 dias"},
-            {"id":"4",  "answer": "8 horas"}
+            {"id":1,  "answer": "24 horas"},
+            {"id":2,  "answer": "1 semana"},
+            {"id":3,  "answer": "3 dias"},
+            {"id":4,  "answer": "8 horas"}
         ]
     },
     {
@@ -334,10 +334,10 @@
         "question": "O que o cartão de visita de Al Capone indicava sua ocupação? ",
         "correct": 2,
         "alternatives": [
-            {"id":"1",  "answer": "Uma mafioso"},
-            {"id":"2",  "answer": "Um vendedor de móveis usados"},
-            {"id":"3",  "answer": "Um mecânico de motos"},
-            {"id":"4",  "answer": "Um dono de oficina mecânica"}
+            {"id":1,  "answer": "Uma mafioso"},
+            {"id":2,  "answer": "Um vendedor de móveis usados"},
+            {"id":3,  "answer": "Um mecânico de motos"},
+            {"id":4,  "answer": "Um dono de oficina mecânica"}
         ]
     },
     {
@@ -345,10 +345,10 @@
         "question": "Em que ano o Poderoso Chefão foi lançado pela primeira vez?",
         "correct": 3,
         "alternatives": [
-            {"id":"1",  "answer": "1968"},
-            {"id":"2",  "answer": "1974"},
-            {"id":"3",  "answer": "1972"},
-            {"id":"4",  "answer": "1978"}
+            {"id":1,  "answer": "1968"},
+            {"id":2,  "answer": "1974"},
+            {"id":3,  "answer": "1972"},
+            {"id":4,  "answer": "1978"}
         ]
     },
     {
@@ -356,10 +356,10 @@
         "question": "Qual atriz interpretou Mary Poppins no filme de 1964?",
         "correct": 4,
         "alternatives": [
-            {"id":"1",  "answer": "Shirley MacLaine"},
-            {"id":"2",  "answer": "Leslie Caron"},
-            {"id":"3",  "answer": "Patricia Neal"},
-            {"id":"4",  "answer": "Julie Andrews"}
+            {"id":1,  "answer": "Shirley MacLaine"},
+            {"id":2,  "answer": "Leslie Caron"},
+            {"id":3,  "answer": "Patricia Neal"},
+            {"id":4,  "answer": "Julie Andrews"}
         ]
     },
     {
@@ -367,10 +367,10 @@
         "question": "Em que esporte Neil Adams se destacou?",
         "correct": 1,
         "alternatives": [
-            {"id":"1",  "answer": "Judô"},
-            {"id":"2",  "answer": "Futebol"},
-            {"id":"3",  "answer": "Tênis"},
-            {"id":"4",  "answer": "Vôlei"}
+            {"id":1,  "answer": "Judô"},
+            {"id":2,  "answer": "Futebol"},
+            {"id":3,  "answer": "Tênis"},
+            {"id":4,  "answer": "Vôlei"}
         ]
     },
     {
@@ -378,10 +378,10 @@
         "question": "Que país venceu a Copa do Mundo de futebol em 1982 na Espanha?",
         "correct": 2,
         "alternatives": [
-            {"id":"1",  "answer": "Brasil"},
-            {"id":"2",  "answer": "Itália"},
-            {"id":"3",  "answer": "Alemanha Ocidental"},
-            {"id":"4",  "answer": "Argentina"}
+            {"id":1,  "answer": "Brasil"},
+            {"id":2,  "answer": "Itália"},
+            {"id":3,  "answer": "Alemanha Ocidental"},
+            {"id":4,  "answer": "Argentina"}
         ]
     },
     {
@@ -389,10 +389,10 @@
         "question": "Quantos jogadores existem em uma equipe olímpica de curling?",
         "correct": 3,
         "alternatives": [
-            {"id":"1",  "answer": "Três"},
-            {"id":"2",  "answer": "Nove"},
-            {"id":"3",  "answer": "Quatro"},
-            {"id":"4",  "answer": "Quinze"}
+            {"id":1,  "answer": "Três"},
+            {"id":2,  "answer": "Nove"},
+            {"id":3,  "answer": "Quatro"},
+            {"id":4,  "answer": "Quinze"}
         ]
     },
     {
@@ -400,10 +400,10 @@
         "question": "Quantos corações tem um polvo?",
         "correct": 4,
         "alternatives": [
-            {"id":"1",  "answer": "Cinco"},
-            {"id":"2",  "answer": "Dois"},
-            {"id":"3",  "answer": "Um"},
-            {"id":"4",  "answer": "Três"}
+            {"id":1,  "answer": "Cinco"},
+            {"id":2,  "answer": "Dois"},
+            {"id":3,  "answer": "Um"},
+            {"id":4,  "answer": "Três"}
         ]
     },
     {
@@ -411,10 +411,10 @@
         "question": "Qual é a temperatura média da superfície em Vênus?",
         "correct": 1,
         "alternatives": [
-            {"id":"1",  "answer": "460° C"},
-            {"id":"2",  "answer": "400° C"},
-            {"id":"3",  "answer": "380° C"},
-            {"id":"4",  "answer": "500° C"}
+            {"id":1,  "answer": "460° C"},
+            {"id":2,  "answer": "400° C"},
+            {"id":3,  "answer": "380° C"},
+            {"id":4,  "answer": "500° C"}
         ]
     },
     {
@@ -422,10 +422,10 @@
         "question": "Em que ano os Beatles foram aos EUA pela primeira vez?",
         "correct": 2,
         "alternatives": [
-            {"id":"1",  "answer": "1966"},
-            {"id":"2",  "answer": "1964"},
-            {"id":"3",  "answer": "1960"},
-            {"id":"4",  "answer": "1970"}
+            {"id":1,  "answer": "1966"},
+            {"id":2,  "answer": "1964"},
+            {"id":3,  "answer": "1960"},
+            {"id":4,  "answer": "1970"}
         ]
     }
 ]
