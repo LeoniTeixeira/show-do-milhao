@@ -1,7 +1,14 @@
-import React from 'react';
-function Answer({id, answer, selected, setSelected, correct, showCorrect, 
-      setTimer, confirmAnswer, setConfirmAnswer}) {
-          
+import React, { useContext } from 'react';
+import { GlobalContext } from '../../contexts/Global'
+
+function Answer({ id, answer, correct }) {
+    const { selected, 
+            setSelected, 
+            showCorrect, 
+            setTimer, 
+            confirmAnswer, 
+            setConfirmAnswer 
+    } = useContext(GlobalContext)
     const correctLook = correct === id && showCorrect===true ? "correct-look answer" : "question-look answer "
     const selectedLook = selected === id ? "select-look" : "circle"
     function handleClick(){

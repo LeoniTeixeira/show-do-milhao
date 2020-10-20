@@ -1,32 +1,19 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import Answer from '../Answer/Answer';
 import Score from '../Score/Score';
-function QuestionList({question, selected, setSelected, questionIndex, showCorrect, setTimer, miss, setMiss, stop, setStop, confirmAnswer, setConfirmAnswer}) {
+import { GlobalContext } from '../../contexts/Global'
+
+export default function QuestionList() {
+    const { question } = useContext(GlobalContext)
     return (
         <> 
             <div className="question-look question">
                 {question.question}
             </div>
             {question.alternatives.map((alternative)=> 
-            <Answer key={alternative.id}
-                {...alternative}
-                selected={selected} 
-                setSelected={setSelected}   
-                correct={question.correct} 
-                showCorrect={showCorrect} 
-                setTimer={setTimer} 
-                confirmAnswer={confirmAnswer}
-                setConfirmAnswer={setConfirmAnswer}   
-                                />
+                <Answer {...alternative} key={alternative.id} correct={question.correct}/>
             )}
-            <Score 
-                questionIndex={questionIndex}
-                miss={miss}
-                setMiss={setMiss}
-                stop={stop}
-                setStop={setStop}
-            />
+            <Score/>
         </>
     )
 }
-export default QuestionList;

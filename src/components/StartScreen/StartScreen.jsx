@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import Logo from '../../assets/img/show.png'
 import './StartScreen.css'
-function StartScreen({setScreen, setQuestionIndex}) {
+import { GlobalContext } from '../../contexts/Global'
+
+export default function StartScreen() {
+    const { setScreen, setQuestionIndex } = useContext(GlobalContext)
     setQuestionIndex(0)
     return (
         <div className="background-start-screen">
@@ -18,4 +21,3 @@ function StartScreen({setScreen, setQuestionIndex}) {
         </div>
     )
 }
-export default StartScreen;

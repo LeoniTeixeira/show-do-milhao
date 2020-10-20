@@ -1,5 +1,8 @@
-import React, { useState, useEffect } from 'react';
-function Score({questionIndex, miss, setMiss, stop, setStop}) {
+import React, { useState, useEffect, useContext } from 'react';
+import { GlobalContext } from '../../contexts/Global'
+
+export default function Score() {
+    const { questionIndex, miss, setMiss, stop, setStop } = useContext(GlobalContext)
     const [ scored, setScored ] = useState(0)
     useEffect(()=>{
         if (questionIndex < 6 && questionIndex > 0) {
@@ -40,4 +43,3 @@ function Score({questionIndex, miss, setMiss, stop, setStop}) {
         </div>
     )
 }
-export default Score;

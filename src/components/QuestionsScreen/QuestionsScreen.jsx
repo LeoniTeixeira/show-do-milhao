@@ -1,23 +1,34 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useContext } from 'react';
 import './QuestionsScreen.css'
 import Logo from '../../assets/img/show.png'
-import Questions from '../../data/questions.json'
 import QuestionList from '../QuestionList/QuestionList';
 import Timer from '../Timer/Timer';
 import Menu from '../Menu/Menu'
-function QuestionsScreen({ setScreen, questionIndex, setQuestionIndex, setCondition, miss, setMiss, stop, setStop }) {
-    const [ firstQuestion, setFirstQuestion ] = useState(false)
-    const [ questionList, setQuestionList ] = useState(Questions)
-    const [ question, setQuestion ] = useState(questionList[0])
-    const [ selected, setSelected ] = useState(0)
-    const [ timer, setTimer ] = useState(0)
-    const [ timerIsActive, setTimerIsActive ] = useState(false)
-    const [ showCorrect, setShowCorrect ] = useState(false)
-    const [ confirmAnswer, setConfirmAnswer ] = useState(false)
+import { GlobalContext } from '../../contexts/Global'
+
+export default function QuestionsScreen() {
+    const { setScreen,
+            questionIndex,
+            setQuestionIndex,
+            setCondition,
+            firstQuestion, 
+            setFirstQuestion,
+            questionList, 
+            setQuestionList,
+            question, 
+            setQuestion,
+            selected, 
+            setSelected,
+            timer, 
+            setTimer,
+            setTimerIsActive,
+            setShowCorrect, 
+            setConfirmAnswer
+    } = useContext(GlobalContext)
     function newQuestion(){
         const randomNum = Math.floor(Math.random() * (questionList.length - 1)) + 1
         const choose = questionList[randomNum]
-        setTimer(800)
+        setTimer(40)
         setTimerIsActive(true)
         setShowCorrect(false)
         setQuestionIndex(questionIndex+1)
@@ -72,33 +83,19 @@ function QuestionsScreen({ setScreen, questionIndex, setQuestionIndex, setCondit
                 }
             }
         }
-    },[timer])
+    }, [timer])
     return ( 
         <div className="questions-area-background font display-flex">
             <div className="questions-area">
                 <div className="display-flex center">
                     <img className="logo" src={Logo} alt="Logo do Show do Milhão"/>
                     <div className="timer-container"> 
-                        <Timer timer={timer} setTimer={setTimer} timerIsActive={timerIsActive} setTimerIsActive={setTimerIsActive}/>
+                        <Timer/>
                     </div>
                 </div>
-                <QuestionList 
-                    question={question} 
-                    selected={selected} 
-                    setSelected={setSelected} 
-                    questionIndex={questionIndex} 
-                    showCorrect={showCorrect} 
-                    setTimer={setTimer}
-                    miss={miss}
-                    setMiss={setMiss}
-                    stop={stop}
-                    setStop={setStop}
-                    confirmAnswer={confirmAnswer}
-                    setConfirmAnswer={setConfirmAnswer}
-                />
+                <QuestionList/>
             </div>
-                <Menu/>
+            <Menu/>
         </div>
     )
 }
-export default QuestionsScreen;
