@@ -4,23 +4,27 @@ body{
 }
 
 .font{
-    font-size: large;
+    font-size: 3vh;
     font-family: sans-serif;
     text-transform: uppercase;
     text-shadow: 2px 2px 2px black;
 }
 
 .questions-area-background{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     top: 0;
     height: 100%;
     min-height: 100vh;
     width: 100vw;
-    background-image: linear-gradient(to left, blue , black);
+    background-image: linear-gradient(to left bottom, blue , black);
 }
 
 .logo{
-    max-width: 50vw;
-    margin: 4vh 0 2vh 8vw;
+    max-height: 20vh;
+    max-width: 45vw;
+    margin: 4vh auto 2vh;
 }
 
 .question-look{
@@ -33,11 +37,11 @@ body{
     align-items: center;
     justify-content: center;
     background: #ba1313;
-    width: 2.5rem;
-    height: 2.5rem;
+    min-width: 7vh;
+    min-height: 7vh;
     margin-right: 1rem;
     margin-left: 2px;
-    border-radius: 1.5rem;
+    border-radius: 50%;
 }
 
 .correct-look{
@@ -55,15 +59,16 @@ body{
 
 .question{
     display: flex;
-    height: 15vh;
-    max-height: 5rem;
-    max-width: 95vw;
+    align-items: center;
+    min-height: 14vh;
+    max-width: 94vw;
     padding: 2vh 1vw 2vh 3vw ;
     border: 3px outset white;
     border-left: none;
     border-top-right-radius: 0.8rem ;
     border-bottom-right-radius: 0.8rem;
     color: white;
+    cursor: default;
 }
 
 .answer{
@@ -71,7 +76,7 @@ body{
     align-items: center;
     margin: 1vh auto;
     width: 94vw;
-    height: 2rem;
+    height: 6vh;
     padding: 0.5rem 0.5vw;
     border: 1.5px solid white;
     border-radius: 0.6rem;
@@ -84,28 +89,27 @@ body{
     align-items: center;
     justify-content: center;
     background: whitesmoke;
-    width: 2.5rem;
-    height: 2.5rem;
+    min-width: 7vh;
+    min-height: 7vh;
     margin: 0 1rem 0 2px;
-    border-radius: 1.5rem;
+    border-radius: 50%;
 }
 
 .number{
-    /* position: relative; */
     margin: 0;
     bottom: 1.1rem;
     left: 0.8rem;
     color: blue;
     text-shadow: none;
-    font-size: 1.6rem;
+    font-size: 5vh;
     text-shadow: 0 0 1rem white;
 }
 
 .gold-container{
     display: flex;
     justify-content: space-around;
-    margin: 3vh 2vw; 
-    max-width: 32rem;
+    margin: 2vh 0 0;
+    width: auto;
 }
 
 .screen-none{
@@ -118,17 +122,16 @@ body{
     justify-content: center;
     background-image: linear-gradient(to top right,
     white , yellow, white );
-    width: 25vw;
-    min-width: 5rem;
-    max-width: 8rem;
-    height: 5vh;
-    border: 2px solid yellow;
+    width: 28vw;
+    height: 6vh;
+    border: none;
     border-radius: 2px;
     text-align: center;
     color: red;
     text-shadow: 1px 1px 2px red;
     transition: 300ms;
-    font-size: 0.75rem;
+    font-size: 1.7vh;
+    cursor: default;
 }
 
 .gold:hover{
@@ -143,7 +146,7 @@ body{
     margin: 0.5rem auto;
     text-align: center;
     color: white;
-    font-size: 0.9rem;
+    font-size: 2.5vh;
 }
 
 .text-container{
@@ -153,6 +156,7 @@ body{
 
 .timer-container{
     width: 40vw;
+    text-align: center;
 }
 
 .question-timer{
@@ -172,11 +176,8 @@ body{
     display: none;
 }
 
-.display-flex{
+.logo-container{
     display: flex;
-}
-
-.center{
     align-items: center;
 }
 
@@ -231,17 +232,16 @@ body{
 
 .btn-menu{
     width: 20vw;
-    margin: 0.5rem 38vw;
-    position: absolute;
-    bottom: 0;
-    padding: 0.3rem 1vw;
+    margin: -2vh auto 2vh;
+    padding: 0.6vh 1.2vw;
     border: none;
     border-radius: 0.3rem;
     background-image: linear-gradient(to top left,
-    white , red, white );
+    #ba1313, #ee1313);
     color: white;
     text-shadow: 1px 1px black;
     text-align: center;
+    cursor: pointer;
 }
 
 .menu-area{
@@ -250,55 +250,60 @@ body{
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: rgba(0, 0, 0, 0.4);
+    background: #00000080;
 }
 
-@media screen and (min-width: 1280px) {
-    .font{
-        font-size: x-large;
-    }
+.btn-exit{
+    position: absolute;
+    right: 0;
+    border: none;
+    height: 5vh;
+    width: 5vh;
+    color: white;
+    background: #ba1313;
+    font-size: 4vh;
+}
 
-    .logo{
-        max-width: 26rem;
-        margin: 2vh 3vw;
-    }
-    
+@media screen and (min-width: 900px) {
     .questions-area{
+        height: 100vh;
         width: 28vw;
-        min-width: 32rem;
         border-right: 2px solid white;
     }
 
     .question{
-        height: auto;
-        min-height: 6rem;
-        max-height: none;
-        padding: 4vh 1vw;
+        min-height: 10vh;
+        padding: 3vh 1vw;
         margin-right: -0.8rem;
     }
 
     .answer{
-        margin: 1.5vh 1vw;
-        height: 3rem;
+        margin: 1vh 0.5vw;
+        height: 5vh;
         width: auto;
     }
 
     .circle{
-        height: 3rem;
-        width: 3rem;
+        min-width: 6vh;
+        min-height: 6vh;
     }
 
     .select-look{
-        height: 3rem;
-        width: 3rem;
+        min-width: 6vh;
+        min-height: 6vh;
+    }
+
+    .number{
+        font-size: 4vh;
     }
 
     .gold-container{
-        margin: 5vh 1vw; 
+        margin: 5vh auto 0; 
     }
 
     .gold{
-        font-size: 1rem;
+        width: 7vw;
+        height: 5vh;
     }
 
     .btn-menu{
@@ -306,21 +311,29 @@ body{
     }
 
     .timer-container{
+        display: flex;
+        justify-content: center;
         position: absolute;
         top: 2rem;
-        left: 50vw;
-        width: 18rem;
+        right: 0;
+        width: 72vw;
+    }
+
+    .menu-container{
+        position: absolute;
+        right: 0;
+        width: 72vw;
+        height: 100vh;
     }
 
     .menu-area{
-        position: relative;
         display: flex;
-        background: rgba(0, 0, 0, 0.8);
-        width: 56vw;
-        height: 63vh;
-        margin: 25vh 0 0 4vw ;
-        border-radius: 5px;
-        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.486);
+        position: relative;
+        width: 50vw;
+        height: 60vh;
+        margin: 25vh auto 0;
+        border-radius: 5%;
+        box-shadow: 5px 5px 2rem #000000;
     }
     
     .btn-exit{

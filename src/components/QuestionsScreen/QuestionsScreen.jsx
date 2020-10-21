@@ -28,28 +28,25 @@ export default function QuestionsScreen() {
     function newQuestion(){
         const randomNum = Math.floor(Math.random() * (questionList.length - 1)) + 1
         const choose = questionList[randomNum]
-        setTimer(40)
-        setTimerIsActive(true)
-        setShowCorrect(false)
-        setQuestionIndex(questionIndex+1)
-        setSelected(0)
         setQuestion(choose)
         setQuestionList(questionList.filter((temp) => temp.id !== choose.id ))
+        setShowCorrect(false)
+        setSelected(0)
+        setTimer(90000)
+        setTimerIsActive(true)
+        setQuestionIndex(questionIndex+1)
     }
     function ShowCorrect(){
         setConfirmAnswer(false)
         setShowCorrect(true)
         setTimerIsActive(false)
     }
-    useEffect(()=>{
-        // if is the initial question 
+    useEffect(()=>{ 
         if (firstQuestion===false){
             newQuestion()
             setFirstQuestion(true)
         } else {
-            // if the timer is over and don't is the last question
             if(timer===0&&questionIndex<16){
-                //if the select answer is correct
                 if (question.correct===selected){
                     setTimeout(() => {
                         ShowCorrect()
@@ -85,9 +82,9 @@ export default function QuestionsScreen() {
         }
     }, [timer])
     return ( 
-        <div className="questions-area-background font display-flex">
+        <div className="questions-area-background font">
             <div className="questions-area">
-                <div className="display-flex center">
+                <div className="logo-container">
                     <img className="logo" src={Logo} alt="Logo do Show do Milhão"/>
                     <div className="timer-container"> 
                         <Timer/>
@@ -95,7 +92,9 @@ export default function QuestionsScreen() {
                 </div>
                 <QuestionList/>
             </div>
-            <Menu/>
+            <div className="menu-container">
+                <Menu/>
+            </div>
         </div>
     )
 }

@@ -53,6 +53,7 @@
     border: none;
     box-shadow: 2px 2px 4px black;
     background-image: linear-gradient( to right, black, blue, black);
+    cursor: pointer;
 }
 
 .button-start:hover{
