@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import Answer from '../Answer/Answer';
 import Score from '../Score/Score';
 import { GlobalContext } from '../../contexts/Global'
+import './QuestionList.css'
 
 export default function QuestionList() {
     const { question } = useContext(GlobalContext)

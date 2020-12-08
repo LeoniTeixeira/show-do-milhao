@@ -14,8 +14,6 @@
     margin: 15vh auto;
     background-image: linear-gradient( to bottom left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
     border: 4px outset yellow;
-    
-    /* box-shadow: 0.5rem 0.5rem 2rem rgba(0, 0, 0, 0.3); */
 }
 
 .logo-start{

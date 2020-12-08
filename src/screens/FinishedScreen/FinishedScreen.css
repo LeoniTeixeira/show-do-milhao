@@ -1,0 +1,16 @@
+.finished-bg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right,
+   rgb(252, 252, 145), rgb(223, 223, 22), black);
+   color: white;
+}
+
+.gold-image {
+    width: 30vw;
+}

@@ -1,0 +1,55 @@
+.gold-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 2vh 0 0;
+    width: auto;
+}
+
+.gold {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to top right,
+    white , yellow, white );
+    width: 28vw;
+    height: 6vh;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+    color: red;
+    text-shadow: 1px 1px 2px red;
+    transition: 300ms;
+    font-size: 1.7vh;
+    cursor: default;
+}
+
+.gold:hover {
+    background-image: linear-gradient(to top right,
+    white, yellow, white, yellow );
+    box-shadow: 0 0 1rem yellow;
+    text-shadow: 1px 1px 8px red;
+    transition: 300ms;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.gold-text {
+    margin: 0.5rem auto;
+    text-align: center;
+    color: white;
+    font-size: 2.5vh;
+}
+
+@media screen and (min-width: 900px) {
+    .gold-container {
+        margin: 5vh auto 0; 
+    }
+
+    .gold {
+        width: 7vw;
+        height: 5vh;
+    }
+}

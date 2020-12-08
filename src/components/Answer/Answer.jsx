@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import { GlobalContext } from '../../contexts/Global'
+import './Answer.css'
 
 function Answer({ id, answer, correct }) {
     const { selected, 
@@ -25,7 +26,11 @@ function Answer({ id, answer, correct }) {
     return (
         <>
             <div role="button" onClick={()=>handleClick()} className={correctLook}>
-                <div className={selectedLook}><h2 className="number">{id}</h2></div>
+                <div className={selectedLook}>
+                    <h2 className="number">
+                        {id}
+                    </h2>
+                </div>
                 {answer}  
             </div>
             <div className={confirmAnswer?"confirm-modal":"display-none"}>

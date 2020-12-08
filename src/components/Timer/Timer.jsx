@@ -1,5 +1,6 @@
 import React, {useEffect, useContext} from 'react';
 import { GlobalContext } from '../../contexts/Global'
+import './Timer.css'
 
 export default function Timer() {
   const { timerIsActive, timer, setTimer } = useContext(GlobalContext)

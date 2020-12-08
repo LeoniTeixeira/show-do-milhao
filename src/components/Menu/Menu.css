@@ -1,0 +1,145 @@
+.menu-area {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #000000ee;
+    cursor: pointer;
+}
+
+.btn-menu {
+    width: 20vw;
+    margin: -2vh auto 2vh;
+    padding: 0.6vh 1.2vw;
+    border: none;
+    border-radius: 0.3rem;
+    background-image: linear-gradient(to top left,
+    #ba1313, #ee1313);
+    color: white;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-exit {
+    position: absolute;
+    right: 0;
+    border: none;
+    height: 5vh;
+    width: 5vh;
+    color: white;
+    background: #ba1313;
+    font-size: 4vh;
+    border-bottom-left-radius: 0.25rem;
+}
+
+.btn-stop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    width: 96vw;
+    margin: 8vh auto 1vh;
+    background-image: linear-gradient(to top left, #ba1313, #ee1313);
+    color: white;
+    font-size: 5vh;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.btn-stop:hover {
+    background-image: linear-gradient(to bottom right, #ba1313, #ee1313);
+    box-shadow: 0 0 1rem white;
+    transition: 100ms;
+}
+
+.btn-jump {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    width: 96vw;
+    margin: 1vh auto;
+    background-image: linear-gradient(to top left, #008000, #13ba13);
+    color: white;
+    font-size: 5vh;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.btn-jump:hover {
+    background-image: linear-gradient(to bottom right, #008000, #13ba13);
+    box-shadow: 0 0 1rem white;
+    transition: 100ms;
+}
+
+.btn-help {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 15vh;
+    margin: 1vh 0;
+    width: 96vw; 
+    background-image: linear-gradient(to top left, #ffffff, #dddddd);
+}
+
+.btn-help:hover {
+    background-image: linear-gradient(to bottom right, #ffffff, #f5f5f5);
+    box-shadow: 0 0 1rem white;
+    transition: 100ms;
+}
+
+.help-container {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (min-width: 900px) {
+    .menu-area {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 50vw;
+        height: 60vh;
+        margin: 25vh auto 0;
+        border-radius: 5%;
+        box-shadow: 5px 5px 2rem #000000;
+    }
+
+    .btn-menu {
+        display: none;
+    }
+
+    .btn-exit {
+        display: none;
+    }
+
+    .btn-stop {
+        height: 15vh;
+        max-width: 49vw;
+        margin: auto;
+    } 
+
+    .btn-help {
+        height: 25vh;
+        width: 16vw;
+        margin: 0;
+    }
+
+    .btn-jump {
+        height: 15vh;
+        max-width: 49vw;
+        margin: auto;
+    }
+
+    .help-container {
+        min-width: 49vw;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding: 0;
+    }
+}

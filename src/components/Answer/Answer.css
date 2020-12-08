@@ -1,0 +1,114 @@
+.answer {
+    display: flex;
+    align-items: center;
+    margin: 1vh auto;
+    width: 94vw;
+    height: 6vh;
+    padding: 0.5rem 0.5vw;
+    border: 1.5px solid white;
+    border-radius: 0.6rem;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: whitesmoke;
+    min-width: 7vh;
+    min-height: 7vh;
+    margin: 0 1rem 0 2px;
+    border-radius: 50%;
+}
+
+.number { 
+    margin: 0;
+    bottom: 1.1rem;
+    left: 0.8rem;
+    color: blue;
+    text-shadow: none;
+    font-size: 5vh;
+    text-shadow: 0 0 1rem white;
+}
+
+.select-look {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ba1313;
+    min-width: 7vh;
+    min-height: 7vh;
+    margin-right: 1rem;
+    margin-left: 2px;
+    border-radius: 50%;
+}
+
+.correct-look {
+    background-image: linear-gradient(to bottom left,
+     #13ee13 , #13ba13, #13ee13,  #13ba13, #13ee13,  #13ba13);
+    transition: 1000ms;
+}
+
+.confirm-modal {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.confirm-container {
+    color: red;
+    position: absolute;
+    top: 0;
+    background-image: linear-gradient( to right, rgba(0, 0, 0, 0.01), black, rgba(0, 0, 0, 0.01));
+    display: flex;
+    width: 70vw;
+    height:15vh;
+    margin-top: 35vh;
+    margin-left: 15vw;
+    flex-direction: column;
+    padding: 2vh 0;
+    text-align: center;
+}
+
+.confirm-btn {
+    padding: 0.4rem 1.2rem;
+    margin: 1rem;
+    text-transform: uppercase;
+    color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+
+.no-color {
+    background: red;
+}
+
+.yes-color {
+    background: green;
+}
+
+@media screen and (min-width: 900px) {
+    .answer {
+        margin: 1vh 0.5vw;
+        height: 5vh;
+        width: auto;
+    }
+
+    .circle {
+        min-width: 6vh;
+        min-height: 6vh;
+    }
+
+    .number {
+        font-size: 4vh;
+    }
+
+    .select-look {
+        min-width: 6vh;
+        min-height: 6vh;
+    }
+}

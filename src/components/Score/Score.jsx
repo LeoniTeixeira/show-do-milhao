@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useContext } from 'react';
 import { GlobalContext } from '../../contexts/Global'
+import './Score.css'
 
 export default function Score() {
     const { questionIndex, miss, setMiss, stop, setStop } = useContext(GlobalContext)

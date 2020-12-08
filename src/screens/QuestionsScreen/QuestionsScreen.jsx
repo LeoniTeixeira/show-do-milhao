@@ -1,9 +1,9 @@
 import React, { useEffect, useContext } from 'react';
 import './QuestionsScreen.css'
 import Logo from '../../assets/img/show.png'
-import QuestionList from '../QuestionList/QuestionList';
-import Timer from '../Timer/Timer';
-import Menu from '../Menu/Menu'
+import QuestionList from '../../components/QuestionList/QuestionList';
+import Timer from '../../components/Timer/Timer';
+import Menu from '../../components/Menu/Menu'
 import { GlobalContext } from '../../contexts/Global'
 
 export default function QuestionsScreen() {
@@ -25,7 +25,7 @@ export default function QuestionsScreen() {
             setShowCorrect, 
             setConfirmAnswer
     } = useContext(GlobalContext)
-    function newQuestion(){
+    const newQuestion = () => {
         const randomNum = Math.floor(Math.random() * (questionList.length - 1)) + 1
         const choose = questionList[randomNum]
         setQuestion(choose)
@@ -36,18 +36,18 @@ export default function QuestionsScreen() {
         setTimerIsActive(true)
         setQuestionIndex(questionIndex+1)
     }
-    function ShowCorrect(){
+    const ShowCorrect = () => {
         setConfirmAnswer(false)
         setShowCorrect(true)
         setTimerIsActive(false)
     }
-    useEffect(()=>{ 
-        if (firstQuestion===false){
+    useEffect(() => { 
+        if (firstQuestion === false){
             newQuestion()
             setFirstQuestion(true)
         } else {
-            if(timer===0&&questionIndex<16){
-                if (question.correct===selected){
+            if(timer===0 && questionIndex<16) {
+                if (question.correct === selected) {
                     setTimeout(() => {
                         ShowCorrect()
                     }, 1000)
@@ -65,7 +65,7 @@ export default function QuestionsScreen() {
                     }, 2500) 
                 }
             }
-            if(timer===0&&questionIndex===16){
+            if(timer===0 && questionIndex===16) {
                 setTimeout(() => {
                     ShowCorrect()
                 }, 1500)

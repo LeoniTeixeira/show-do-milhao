@@ -2,6 +2,7 @@ import React from 'react';
 import { useContext } from 'react';
 import Gold from '../../assets/img/gold.png'
 import { GlobalContext } from '../../contexts/Global'
+import './FinishedScreen.css'
 
 export default  function FinishedScreen() {
     const { setScreen, 
