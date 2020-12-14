@@ -40,18 +40,12 @@
     align-items: center;
     height: 15vh;
     width: 96vw;
-    margin: 8vh auto 1vh;
+    margin: 8vh auto 2px;
     background-image: linear-gradient(to top left, #ba1313, #ee1313);
     color: white;
     font-size: 5vh;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
-}
-
-.btn-stop:hover {
-    background-image: linear-gradient(to bottom right, #ba1313, #ee1313);
-    box-shadow: 0 0 1rem white;
-    transition: 100ms;
 }
 
 .btn-jump {
@@ -60,7 +54,7 @@
     align-items: center;
     height: 15vh;
     width: 96vw;
-    margin: 1vh auto;
+    margin: 1px auto;
     background-image: linear-gradient(to top left, #008000, #13ba13);
     color: white;
     font-size: 5vh;
@@ -68,26 +62,28 @@
     border-bottom-right-radius: 1rem;
 }
 
-.btn-jump:hover {
-    background-image: linear-gradient(to bottom right, #008000, #13ba13);
-    box-shadow: 0 0 1rem white;
-    transition: 100ms;
+.btn-jump-off {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    width: 96vw;
+    margin: 1px auto;
+    background-image: linear-gradient(to top left, #636363, #c2c2c2);
+    color: white;
+    font-size: 5vh;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
 
 .btn-help {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    height: 15vh;
-    margin: 1vh 0;
+    height: 18vh;
+    margin: 2px 0;
     width: 96vw; 
     background-image: linear-gradient(to top left, #ffffff, #dddddd);
-}
-
-.btn-help:hover {
-    background-image: linear-gradient(to bottom right, #ffffff, #f5f5f5);
-    box-shadow: 0 0 1rem white;
-    transition: 100ms;
 }
 
 .help-container {
@@ -95,6 +91,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.hide-menu {
+    display: none;
 }
 
 @media screen and (min-width: 900px) {
@@ -122,6 +122,12 @@
         max-width: 49vw;
         margin: auto;
     } 
+    
+    .btn-stop:hover {
+        background-image: linear-gradient(to bottom right, #ba1313, #ee1313);
+        box-shadow: 0 0 1rem white;
+        transition: 100ms;
+    }
 
     .btn-help {
         height: 25vh;
@@ -129,7 +135,25 @@
         margin: 0;
     }
 
+    .btn-help:hover {
+        background-image: linear-gradient(to bottom right, #ffffff, #f5f5f5);
+        box-shadow: 0 0 1rem white;
+        transition: 100ms;
+    }
+
     .btn-jump {
+        height: 15vh;
+        max-width: 49vw;
+        margin: auto;
+    }
+
+    .btn-jump:hover {
+        background-image: linear-gradient(to bottom right, #008000, #13ba13);
+        box-shadow: 0 0 1rem white;
+        transition: 100ms;
+    }
+
+    .btn-jump-off {
         height: 15vh;
         max-width: 49vw;
         margin: auto;

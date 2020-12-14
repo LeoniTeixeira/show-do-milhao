@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
-import Answer from '../Answer/Answer';
-import Score from '../Score/Score';
+import Answer from '../Answer';
+import Score from '../Score';
 import { GlobalContext } from '../../contexts/Global'
 import './QuestionList.css'
 

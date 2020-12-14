@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
-import QuestionsScreen from '../../screens/QuestionsScreen/QuestionsScreen'
-import StartScreen from '../../screens/StartScreen/StartScreen'
-import FinishedScreen from '../../screens/FinishedScreen/FinishedScreen';
+import QuestionsScreen from '../../screens/QuestionsScreen'
+import StartScreen from '../../screens/StartScreen'
+import FinishedScreen from '../../screens/FinishedScreen';
 import { GlobalContext } from '../../contexts/Global'
 
 export default function ScreenSelector() {

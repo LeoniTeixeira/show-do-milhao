@@ -8,22 +8,26 @@ export default  function FinishedScreen() {
     const { setScreen, 
             questionIndex, 
             condition, 
-            stop, 
+            stop,
+            playerName,
             miss
     } = useContext(GlobalContext)
     setTimeout(() => {
         setScreen('start')
-    }, 3500)
+    }, 4000)
     return (
         <div className="finished-bg font">
+            <h1>{playerName}</h1>
             <h1>Você levou para casa!</h1>
+            <img className="gold-image" src={Gold} alt=""/>
+            
             <h1>{condition==='stop'?stop:miss}
                 {miss===null&&stop===null?"Nada":""}
                 {questionIndex>1&&questionIndex<17?" Mil Reais":""}
                 {questionIndex===17?" Milhão de reais":""}
+                <br/>
+                {miss===null&&stop===null?<div/>:"Em barras de ouro"}
             </h1>
-            <img className="gold-image" src={Gold} alt=""/>
-            {miss===null&&stop===null?<div/>:<h1>Em barras de ouro</h1>}
         </div>
     )
 }

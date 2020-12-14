@@ -6,11 +6,19 @@
     top: 0;
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(to right,
-   rgb(252, 252, 145), rgb(223, 223, 22), black);
-   color: white;
+    background-image: linear-gradient(to right top,
+   #b4b400, #ffff00, #ffffc5, #b4b400);
+   text-align: center;
+   color: #b60000;
 }
 
 .gold-image {
-    width: 30vw;
+    width: 70vw;
+    margin: 8vh 0;
+}
+
+@media screen and (min-width: 900px) {
+    .gold-image {
+        width: 25vw;
+    }
 }
